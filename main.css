@@ -1,0 +1,92 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .pokemon-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-card {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+  
+  .pokemon-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .pokemon-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .pokemon-card p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .input1{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #757575;
+width: 200px;
+height: 39px;
+border-radius: 5px;
+background-color: white;
+border: none;
+  }
+  .button2{
+    width: 70px;
+height: 39px;
+border-radius: 5px;
+background-color: #D9534F;
+border: none;
+margin-top: -3px;
+
+  }
+  .select2{
+    width: 101px;
+height: 39px;
+border-radius: 5px;
+background-color: white;
+  }
+  .div1{
+    display: flex;
+    gap:24px ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 41px;
+  }
+  .filter-button{
+    width: 100px;
+height: 39px;
+border-radius: 5px;
+background-color: white;
+color: black;
+margin-top: -3px;
+  }
+  
